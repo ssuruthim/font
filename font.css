@@ -1,0 +1,87 @@
+*
+{
+    text-align:left;
+  
+}
+.p0{
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+.normal
+{
+    font-style: normal;
+}
+.italic
+{
+    font-style: italic;
+}
+
+.normalweight
+{
+    font-weight: normal;
+}
+.bold
+{
+    font-weight: bold;
+}
+.fontvariant
+{
+    font-variant:small-caps;
+}
+.fontsize
+{
+    font-size: 1em;
+}
+.fontsize1
+{
+    font-size: 1vw;
+}
+.font{
+font: italic bold small-caps 17px 'Times New Roman', Times, serif;
+color: red;
+
+background-color: aquamarine;
+}
+.text
+{
+    text-align: center;
+    text-transform: uppercase;
+    ;
+    /* letter-spacing:3px ; */
+    text-shadow: 2px 2px aqua;
+    /* text-indent: 50px; text indent specifies where first line must start */
+    text-decoration:underline dotted blue;
+  
+}
+.color
+{
+    text-transform: uppercase;
+    color: blue;
+
+/* A hexadecimal color is specified with: #RRGGBB. To add transparency, add two additional digits between 00 and FF. */
+/* background-color:#0000ff80; */
+/* background-color:rgba(255,0,0,0.3);  */
+background-color: hsl(0, 100%, 50%);
+/* The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque). */
+/* hsl(hue, saturation, lightness) */
+
+/* Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue. */
+
+/* Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color. */
+
+/* Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white */
+
+}
+h2{
+    text-shadow: 2px 2px;
+    color:red;
+}
+
